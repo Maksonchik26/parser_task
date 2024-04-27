@@ -89,3 +89,4 @@ while True:
 with open("parsing_data.csv", "w") as file:
     writer = DataclassWriter(file, products_list, Product)
     writer.write()
+
