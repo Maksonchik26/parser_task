@@ -15,8 +15,8 @@ class Product:
     id: int
     name: str
     link: str
-    regular_price: int | float
-    promo_price: int | float | None
+    regular_price: int | float | str
+    promo_price: int | float | str | None
     brand: str
 
 
